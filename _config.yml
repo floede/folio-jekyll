@@ -24,3 +24,7 @@ version:          0.1.0
 
 github:
   repo:           https://github.com/floede
+
+# Github pages settings
+safe: true
+lsi: false
