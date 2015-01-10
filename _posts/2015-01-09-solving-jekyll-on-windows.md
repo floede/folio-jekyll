@@ -24,5 +24,3 @@ But after installing Python, and switching to Pygments, I was finally able to ma
 http://jekyll-windows.juthilo.com/
 
 http://erictrinh.com/blog/jekyll-and-gh-pages/
-
-cannot load such file -- rouge
