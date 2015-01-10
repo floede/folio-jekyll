@@ -15,11 +15,12 @@ I followed the instructions from [juthilo](http://jekyll-windows.juthilo.com/), 
 Then I found this guide from [Eric Trinh](http://erictrinh.com/blog/jekyll-and-gh-pages/) detailing how you should aim to replicate GiHub's setup locally. This meant manually installing a ton of gems. Luckily Ruby tells you which and how.
 
 However I kept getting errors that Jekyll couldn't load the syntax highlighter Rouge. 
-<p>cannot load such file -- rouge</p>
+> cannot load such file -- rouge 
+
 I tried  re-installing and updating. Nothing helped.
 Finally I caved in, and tried the other highlighter mentioned by juthilo  . Which required me to install Python. Working with modern web applications often feel like jumping into the rabbit hole. One gem requires another gem which leads to a third, and so on. Same goes for node packages really.
 
-But after installing Python, and switching to Pygments, I was finally able to maket work. And you're able to read this.
+But after installing Python, and switching to Pygments, I was finally able to make it work. And you're able to read this.
 
 http://jekyll-windows.juthilo.com/
 
