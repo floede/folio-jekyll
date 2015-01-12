@@ -22,6 +22,8 @@ Finally I caved in, and tried the other highlighter mentioned by juthilo  . Whic
 
 But after installing Python, and switching to Pygments, I was finally able to make it work. And you're able to read this.
 
-http://jekyll-windows.juthilo.com/
 
-http://erictrinh.com/blog/jekyll-and-gh-pages/
+## Links
+[http://jekyll-windows.juthilo.com/](jekyll-windows.juthilo.com)
+
+[http://erictrinh.com/blog/jekyll-and-gh-pages/](erictrinh.com/blog/jekyll-and-gh-pages)
