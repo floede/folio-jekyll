@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Very first problem
+date: 2015-01-09 10:00:00
 ---
 
 Strangely `jekyll serve` makes the server crash. No errors.

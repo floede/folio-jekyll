@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The obligatory
+date: 2015-01-09 09:00:00
 ---
 
 The first post in my new life as a Ruby on Rails developer!

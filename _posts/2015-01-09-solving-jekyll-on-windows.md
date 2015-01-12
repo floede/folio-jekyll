@@ -2,6 +2,7 @@
 layout: post
 title: Solving Jekyll for GitHub pages on Windows
 published: true
+date: 2015-01-09 11:00:00
 ---
 
 Trying to work with Ruby (on Rails) on Windows is often a pain in the neck. So much so that I'm actually running Linux through Vagrant on my home computer.
