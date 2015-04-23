@@ -17,7 +17,7 @@ ssh-add
 cap production deploy
 
 ## On server stop and restart unicorn:
-service unicorn stop
+service unicorn stop  
 unicorn_rails -c config/unicorn.rb -D -E production
 
 ## Restart Nginx:
