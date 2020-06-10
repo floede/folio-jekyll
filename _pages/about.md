@@ -6,7 +6,7 @@ description: Workshops. Design Sprints. Projektkultur.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: janus-2020.jpg
   address: >
     <p>Janus Hasseriis</p>
     <p>Acacievej 13</p>
