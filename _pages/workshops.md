@@ -28,20 +28,19 @@ description: De forskellige workshops som jeg faciliterer.
 {% else %}
 
 <div class="workshop ">
-    <div class="thumbnail">
-        <a href="{{ workshop.url | prepend: site.baseurl | prepend: site.url }}">
-        {% if workshop.img %}
-        <img class="thumbnail" src="{{ workshop.img | prepend: site.baseurl | prepend: site.url }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
+    <a href="{{ workshop.url | prepend: site.baseurl | prepend: site.url }}">
+        <div class="thumbnail">
+            {% if workshop.img %}
+            <img class="thumbnail" src="{{ workshop.img | prepend: site.baseurl | prepend: site.url }}"/>
+            {% else %}
+            <div class="thumbnail blankbox"></div>
+            {% endif %}    
+        </div>
         <span>
-            <h1>{{ workshop.title }}</h1>
-            <br/>
+            <h2>{{ workshop.title }}</h2>
             <p>{{ workshop.description }}</p>
         </span>
-        </a>
-    </div>
+    </a>
 </div>
 
 {% endif %}
