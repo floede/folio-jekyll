@@ -13,9 +13,9 @@ En fast struktur der fokuserer på at få input fra alle, ikke kun dem der råbe
 Slutresultatet er konkrete opgaver, som kan startes med samme.
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-1.jpeg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-2.jpeg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-3.jpeg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-1.jpeg" alt="Post-it notes on a table"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-2.jpeg" alt="A room with white boards" />
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-3.jpeg" alt="Putting post-it notes on the window" />
 </div>
 <div class="col three caption">
     Credit: AJ&Smart - <a href="https://uxplanet.org/lightning-decision-jam-a-workshop-to-solve-any-problem-65bb42af41dc" target="_blank">uxplanet.org</a>
