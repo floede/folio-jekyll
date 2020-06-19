@@ -1,14 +1,26 @@
 .page-content {
-    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+  padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+}
+
+.page-footer {
+  color: $lighter-gray;
+  background: $mid-gray;
+  padding: 50px 0;
+  margin-top: 50px;
+  .client-logo {
+    object-fit: contain;
+    margin: 0 16px;
+    width: calc(33% - 32px);
+  }
 }
 .page-heading {
-    font-size: 20px;
+  font-size: 20px;
 }
 .contacticon {
-    display: block;
-    font-size: 60px;
-    margin: 10px;
+  display: block;
+  font-size: 60px;
+  margin: 10px;
 }
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }

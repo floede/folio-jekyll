@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
-
 
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
+
+      <div class="page-footer">
+        <div class="wrapper">
+          Kunder & arbejdsgivere:
+
+          <div class="img_row">
+            <img
+              class="col client-logo one left"
+              src="{{ site.baseurl }}/assets/img/CreyLogo_Seconday_10_WHT.png"
+              alt="CREY Games"
+              title="CREY Games"
+            />
+            <img
+              class="col client-logo one left"
+              src="{{ site.baseurl }}/assets/img/DR_RGB_okt2015_RT1.png"
+              alt="DR"
+              title="DR"
+            />
+            <img
+              class="col client-logo one left"
+              src="{{ site.baseurl }}/assets/img/Planday-logo-vert-white-2.png"
+              alt="Planday"
+              title="Planday"
+            />
+          </div>
+          <div class="img_row center">
+            <img
+              class="col client-logo one"
+              src="{{ site.baseurl }}/assets/img/tv3.png"
+              alt="TV3"
+              title="TV3"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
-    {% include footer.html %}
-
-    {% include hemline.html %}
-
+    {% include footer.html %} {% include hemline.html %}
   </body>
-
 </html>

@@ -9,12 +9,13 @@ Er det svært at få taget beslutninger? <br />
 Bliver møderne for lange og/eller går I derfra uden nogle håndfaste resultater?
 
 Prøv at hold dit møde som en workshop med fast struktur i stedet.
-En fast struktur der fokuserer på at få input fra alle, ikke kun dem der råber højest, og slutresultatet der er konkrete opgaver, som kan startes med samme.
+En fast struktur der fokuserer på at få input fra alle, ikke kun dem der råber højest.
+Slutresultatet er konkrete opgaver, som kan startes med samme.
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-1.jpeg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-2.jpeg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-3.jpeg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-1.jpeg" alt="Post-it notes on a table"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-2.jpeg" alt="A room with white boards" />
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/ldj-ajs-3.jpeg" alt="Putting post-it notes on the window" />
 </div>
 <div class="col three caption">
     Credit: AJ&Smart - <a href="https://uxplanet.org/lightning-decision-jam-a-workshop-to-solve-any-problem-65bb42af41dc" target="_blank">uxplanet.org</a>
@@ -35,12 +36,22 @@ En fast struktur der fokuserer på at få input fra alle, ikke kun dem der råbe
 
 **Resultat:** En liste af korte konkrete opgaver, der er lige til at gå til, og f.eks kan skrives ind i et værktøj som Jira.
 
+**Brug denne workshop til at:**
+
+- Finde problemer med eksisterende UX
+- Forbedre den interne designproces
+- Finde nye strategiske initiativer
+- Gøre indeklimaet på kontoret bedre
+- Engagere vores kunder bedre
+
+Kort sagt, hvad som helst der kræver at en gruppe mennesker diskuterer udfordringer, tager beslutninger og løser problemer.
+
 **Antal personer:**
 
 - 6 - 7 personer med relevant erfaring ift. problemstillingen.
 - 1 faciitator
 
-Det er en god idé at have mindst én chef eller anden person med indflydelse som deltager.
+Det er en god idé at have mindst én beslutningstager med som deltager. Det kunne f.eks være en produktansvarlig.
 
 **Værktøjer:**
 
