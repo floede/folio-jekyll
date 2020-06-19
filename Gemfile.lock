@@ -260,6 +260,7 @@ GEM
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
     unicode_utils (1.4.0)
+    wdm (0.1.1)
     zeitwerk (2.3.0)
 
 PLATFORMS
@@ -274,6 +275,7 @@ DEPENDENCIES
   jekyll-scholar
   jemoji
   unicode_utils
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.17.3

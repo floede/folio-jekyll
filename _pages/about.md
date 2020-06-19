@@ -7,11 +7,7 @@ description: Workshops. Design Sprints. Projektkultur.
 profile:
   align: right
   image: janus-2020.jpg
-  address: >
-    <p>Janus Hasseriis</p>
-    <p>Acacievej 13</p>
-    <p>4100, Ringsted</p>
-
+  address:
 news: false
 social: true
 ---
