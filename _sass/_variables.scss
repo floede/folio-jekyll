@@ -1,5 +1,19 @@
 /******************************************************************************/
 
+// JH Colors
+$artichoke: #899878;
+$artichoke-text: #4e5743;
+$pampas: #f7f7f2;
+$beryl-green: #e4e6c3;
+$outer-space: #222725;
+$woodsmoke: #121113;
+
+$tone-00: #eef5e5;
+$tone-10: #e3ebdb;
+$tone-20: #ccd3c4;
+$tone-30: #a3a99c;
+$tone-40: #62665e;
+
 // Typography
 $base-font-size: 16px !default;
 $small-font-size: 0.875rem !default;
@@ -24,7 +38,7 @@ $h1-responsive: 4vw !default;
 $h00-responsive-max: 7.68rem !default;
 $h0-responsive-max: 5.76rem !default;
 $h1-responsive-max: 3.84rem !default;
-$abbr-border-bottom: 1px black dotted;
+$abbr-border-bottom: 1px $woodsmoke dotted;
 
 // Page width
 $measure-width: 42rem !default;
@@ -33,14 +47,6 @@ $measure-width: 42rem !default;
 $viewport-small: 32em;
 $viewport-medium: 48em;
 $viewport-large: 64em;
-
-// JH Colors
-$artichoke: #899878;
-$artichoke-text: #4e5743;
-$pampas: #f7f7f2;
-$beryl-green: #e4e6c3;
-$outer-space: #222725;
-$woodsmore: #121113;
 
 // Colors
 $red: #ff3636 !default;
@@ -63,18 +69,18 @@ $yellow: #efcc00 !default;
 
 $white: #fff !default;
 $dark-gray: #333 !default;
-$mid-gray: #666 !default;
-$light-gray: #ccc !default;
-$lighter-gray: #eee !default;
+$mid-gray: $tone-40 !default;
+$light-gray: $tone-20 !default;
+$lighter-gray: $tone-00 !default;
 
-$grey-color: #828282;
+$grey-color: $tone-40;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
 
-$darken-1: rgba(#000, 0.0625) !default;
-$darken-2: rgba(#000, 0.125) !default;
-$darken-3: rgba(#000, 0.25) !default;
-$darken-4: rgba(#000, 0.5) !default;
+$darken-1: rgba($woodsmoke, 0.0625) !default;
+$darken-2: rgba($woodsmoke, 0.125) !default;
+$darken-3: rgba($woodsmoke, 0.25) !default;
+$darken-4: rgba($woodsmoke, 0.5) !default;
 
 $theme-color: $artichoke;
 $code-color: $outer-space;
@@ -126,7 +132,7 @@ $form-field-padding-x: 0.5rem;
 
 // Code
 $pre-border-radius: 0;
-$pre-background-color: #fafafa;
+$pre-background-color: $pampas;
 $hljs-comment: $mid-gray;
 $hljs-keyword: $dark-blue;
 $hljs-name: $dark-gray;
@@ -162,7 +168,7 @@ $footer-font-size: 0.75rem;
 $img_spacing: 5px;
 $img-height: 275px;
 $caption-font-size: 12px;
-$caption-color: #aaa;
+$caption-color: $tone-30;
 
 /* add on-palm to be consistent with other jekyll theme media queries */
 $on-palm: 600px !default;
