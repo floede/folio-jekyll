@@ -49,7 +49,7 @@ Kort sagt, hvad som helst der kræver at en gruppe mennesker diskuterer udfordri
 **Antal personer:**
 
 - 6 - 7 personer med relevant erfaring ift. problemstillingen.
-- 1 faciitator
+- 1 facilitator
 
 Det er en god idé at have mindst én beslutningstager med som deltager. Det kunne f.eks være en produktansvarlig.
 
