@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Design Sprint
-description:
+description: Test ideer med en prototype
 img: /assets/img/ds-thumb.png
 ---
 
