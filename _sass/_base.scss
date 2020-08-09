@@ -37,3 +37,8 @@ body {
   padding-left: $horizontal-spacing-unit;
   @extend .clearfix;
 }
+
+.form-container {
+  background: #e3ebdb;
+  padding: 16px 32px;
+}
