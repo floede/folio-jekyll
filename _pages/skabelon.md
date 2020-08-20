@@ -2,7 +2,7 @@
 layout: page
 title: skabelon
 permalink: /skabelon/
-description: En skabelon til at lave dine egne workshops.
+description: 4 enkle skridt til at få struktur i dine workshops.
 image: /assets/img/Workshop-skabelon.jpg
 ---
 
@@ -12,7 +12,7 @@ image: /assets/img/Workshop-skabelon.jpg
     <iframe class="video" src="https://www.youtube.com/embed/gWCx0l1jLTw" allowfullscreen></iframe>
 </div>
 <div class="col three caption">
-    En simpel skabelon til at få struktur på dine workshops
+    4 enkle skridt til at få struktur i dine workshops
 </div>
 
 Ideen med skabelonen her er at give dig en ramme eller model til at lave dine egne workshops, men også se hvorfor og hvordan en workshop som Lynhurtig Beslutningsproces virker.
