@@ -43,7 +43,7 @@ Her gælder det om at blive så detaljeret som muligt i forhold til at få lavet
 Udfyld formularen herunder for at få skabelonen sendt direkte til din indbakke.
 
 <div class="form-container">
-<form action="https://janushasseriis.simplero.com/optin/E6ZjjYVdMQQu2kTLZdVYZx7p/167507" method="post"><img src="https://janushasseriis.simplero.com/F/167507" width="1" height="1" alt="." />
+<form action="https://janushasseriis.simplero.com/optin/hBXXqQyUzoL41Ru8taVB8oK8/167507" method="post"><img src="https://janushasseriis.simplero.com/F/167507" width="1" height="1" alt="." />
   <p>Name: <input type="text" name="first_names"></p>
   <p>Email: <input type="email" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required="required"></p>
   <p><input name="submit" value="Ja, jeg er med!" type="submit" class="simplero-submit"></p>
