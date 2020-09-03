@@ -1,129 +1,96 @@
---- # -----------------------------------------------------------------------------
-# -----------------------------------------------------------------------------
-# Site settings
-name: Janus Hasseriis
-email: janus@hasseriis.net
-description: > # this means to ignore newlines until "url:"
-  Mine workshops, artikler, arrangementer med mere.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+# Site wide configuration
 
-url: # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+title: Site Title
+locale: en_US
+url:
+theme: minimal-mistakes-jekyll
 
-# -----------------------------------------------------------------------------
-# Open Graph
-# -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-# To achieve this, change serve_og_meta to true and then provide the URL of the
-# preview image as the value of og_image.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-github_username: floede
-twitter_username: floede
-linkedin_username: janushasseriis
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
+# Jekyll configuration
 
-contact_note: >
-  Fang mig på janus@hasseriis.net eller <a href="https://www.linkedin.com/in/janushasseriis/" target="_blank">LinkeIn</a>.
-
-google_analytics: UA-169213658-1 # out your google-analytics code
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-blog_name: Janus Hasseriis
-blog_description: a simple whitespace theme for academics
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-text:
-  pagination:
-    newer: "Newer"
-    older: "Older"
-
-# Comments
-disqus_shortname: # put your disqus shortname
-
-# Optional features
-show_social_icons: false
-enable_anchorjs: false
-enable_katex: true
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  workshops:
-    output: true
-    permalink: /workshops/:path/
-
-news_limit: 5
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
-
-# Build settings
+permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
 
-# Includes & excludes
-include: ["_pages"]
-exclude: [vendor]
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Plug-ins
-plugins:
-  - jekyll-email-protect
-  - jekyll-paginate
-  - jekyll/scholar
-  - jemoji
+# Octopress
 
-# Jekyll-Scholar
-scholar:
-  last_name: Einstein
+# Default extensions
+post_ext: md
+page_ext: md
 
-  style: apa
-  locale: en
+# Found in _templates/
+post_layout: post
+page_layout: page
 
-  sort_by: year
-  order: descending
+# Format titles with titlecase?
+titlecase: true
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+# Site owner
+owner:
+  name: Your Name
+  avatar: bio-photo.jpg
+  bio: "Describe your self."
+  email:
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
 
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
-
-# -----------------------------------------------------------------------------
-# Other settings
-# -----------------------------------------------------------------------------
-jquery_version: "1.12.4"
-katex_version: "0.9.0"
-anchorjs_version: "3.2.2"
+include: [".htaccess"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+    "less",
+    "*.sublime-project",
+    "*.sublime-workspace",
+    "test",
+    "spec",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
+    "README.md",
+  ]
