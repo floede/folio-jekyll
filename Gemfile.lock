@@ -7,8 +7,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     bibtex-ruby (4.4.7)
       latex-decode (~> 0.0)
     citeproc (1.0.10)
@@ -260,7 +260,6 @@ GEM
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
     unicode_utils (1.4.0)
-    wdm (0.1.1)
     zeitwerk (2.3.0)
 
 PLATFORMS
@@ -275,7 +274,6 @@ DEPENDENCIES
   jekyll-scholar
   jemoji
   unicode_utils
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.17.3
